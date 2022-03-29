@@ -1,0 +1,47 @@
+
+form {
+    background: rgba(255, 255, 255, 0.03);
+
+    width: 100%;
+    max-width: 500px;
+
+    margin: 32px auto;
+    padding: 32px 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.input {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+input {
+    width: 100%;
+
+    padding: 10px 0;
+
+    background-color:whitesmoke;
+}
+
+button {
+    width: 100%;
+
+    padding: 10px 0;
+
+    background-color:#483D8B;
+}
+
+.input span.error {
+    display: flex;
+
+    padding: 0;
+
+    background-color: rgba(255, 0, 0, 0.02);
+}
+
+.input span.error.active {
+    border: 1px solid red;
+    padding: 0.4em;
+}
